@@ -8,6 +8,7 @@
 
 .nav-items {
     display: flex;
+    /* background-color: black; */
     height: auto;
     width: 100%;
     padding: 15px;
@@ -45,4 +46,5 @@
     text-decoration: none;
     color: #FFFFFF;
     letter-spacing: normal;
+    font-size: 15px;
 }
