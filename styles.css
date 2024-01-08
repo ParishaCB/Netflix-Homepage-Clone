@@ -5,3 +5,131 @@
    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
                 Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+body {
+   background-color: #111111;
+}
+
+nav {
+   max-width: 60vw;
+   justify-content: space-between;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   height: 100px;
+}
+
+nav button {
+   position: relative;
+   z-index: 5;
+}
+
+.logo {
+   width: 150px;
+   position: relative;
+   z-index: 5;
+   right: 100px;
+}
+
+.main-section {
+   background-image: url('./images/hero_image.jpg');
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: max(1200px, 100vw);
+   height: 635px;
+   position: relative;
+}
+
+.hero-overlay {
+   position: absolute;
+   height: 635px;
+   width: 100%;
+   opacity: 0.7;
+   top: 0;
+   background-color: #111111;
+}
+
+.hero-section {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero-section> :nth-child(1) {
+   font-size: 45px;
+   text-align: center;
+   font-weight: 800;
+}
+
+.hero-section> :nth-child(2) {
+   font-weight: 400;
+   font-size: 24px;
+   text-align: center;
+}
+
+.hero-section> :nth-child(3) {
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
+}
+
+.sign-in {
+   background-color: rgb(229,9,20);
+   color: #FFFFFF;
+   border-style: none;
+   padding: 10px;
+   border-radius: 0.25rem;
+   font-weight: 500;
+   z-index: 10;
+   line-height: 1;
+   font-size: 0.875rem;
+   min-height: 2rem;
+   padding: 0.25rem 1rem;
+   position: relative;
+   border-color: rgb(229,9,20);
+   left: 50px;
+}
+
+.sign-in a {
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+.hero-buttons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 16px;
+}
+
+.hero-input {
+   padding: 15px;
+   color: white;
+   font-size: 16px;
+   border-radius: 4px;
+   background-color: rgba(23, 23, 23, 0.7);
+   border: 1px solid rgba(246, 238, 238, 0.5);
+   width: 350px;
+   font-weight: 500;
+}
+
+.get-started {
+   background-color: red;
+   color: white;
+   padding: 1px 24px 1px;
+   font-size: 25px;
+   border-radius: 4px;
+   font-weight: 500;
+   border-style: none;
+   line-height: 2;
+}
+
+.chevron-right {
+   font-size: 23px;
+}
