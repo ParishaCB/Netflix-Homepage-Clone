@@ -36,13 +36,13 @@ nav button {
    background-position: center center;
    background-repeat: no-repeat;
    background-size: max(1200px, 100vw);
-   height: 635px;
+   height: 644px;
    position: relative;
 }
 
 .hero-overlay {
    position: absolute;
-   height: 635px;
+   height: 644px;
    width: 100%;
    opacity: 0.7;
    top: 0;
