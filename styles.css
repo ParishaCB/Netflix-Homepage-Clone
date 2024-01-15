@@ -133,3 +133,71 @@ nav button {
 .chevron-right {
    font-size: 23px;
 }
+
+.pricing-outer-div {
+   position: absolute;
+   transform: translateY(-50%);
+   width: 100%;
+}
+
+.pricing-banner {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   background: radial-gradient(
+      51.39% 511.66% at 47.68% -217.91%,
+      #ff9900 0%,
+      #e50914 17.27%,
+      #0e1b4f 79.44%,
+      #000413 100%
+  );
+  box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin: 0px 74px;
+  color: #FFFFFF;
+  padding: 22px;
+}
+
+.pricing-info-info-one {
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 30px;
+   margin: 10px;
+}
+
+.pricing-info-info-one p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+.pricing-info-info-two {
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.pricing-button {
+   cursor: pointer;
+   color: #448ef4;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   width: fit-content;
+   font-weight: 500;
+   background: none;
+   border: none;
+   text-decoration: underline;
+   padding: 0;
+   margin-left: 12px;
+   font-size: 16px;
+}
+
+.chevron-pricing {
+   width: 24px;
+   height: 24px;
+   margin-top: 12px;
+   font-size: 16px;
+   text-decoration: none;
+}
